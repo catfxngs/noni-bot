@@ -12,24 +12,19 @@ Make a new application on the [Discord Developer Portal](https://discord.com/dev
 
 `$ pip install -r requirements.txt`
 
-Create a `.env` file in root and paste the following:
+Run the bot with `$ python3 noni.py` on normal systems, or `$ py -3 noni.py` on Windows.
 
-```
-DISCORD_TOKEN=your.token.here
-```
-If I have to tell you to **never** make your bot token public, you probably shouldn't be here.
+Paste your bot token in the client. If you choose to save, a **.env** will be generated and remembered on the next run.
 
-You can also modify the `config.json` file.
+While ignored by git, keeping your bot token in plaintext is always a risk. Please remember to **always keep your token private!**
+
+You can also directly modify the `config.json` file.
 
 ```json
 {
     "PREFIX": "/"
 }
 ```
-
-You'll need to provide your own API key for the bot to fully function, with more information to be provided.
-
-`$ python3 noni.py`
 
 ### Docker
 
