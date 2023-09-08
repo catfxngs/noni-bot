@@ -27,6 +27,8 @@ You can also modify the `config.json` file.
 }
 ```
 
+You'll need to provide your own API key for the bot to fully function, with more information to be provided.
+
 `$ python3 noni.py`
 
 ### Docker
