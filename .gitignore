@@ -1,7 +1,3 @@
-# Sensitive information, like bot token, API keys, etc.
-# Follow README.md if self-hosting
-.dotenv
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

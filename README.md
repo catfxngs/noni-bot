@@ -12,11 +12,12 @@ Make a new application on the [Discord Developer Portal](https://discord.com/dev
 
 `$ pip install -r requirements.txt`
 
-Create a `.dotenv` in the `/secret` directory and paste the following:
+Create a `.env` file in root and paste the following:
 
 ```
 DISCORD_TOKEN=your.token.here
 ```
+If I have to tell you to **never** make your bot token public, you probably shouldn't be here.
 
 You can also modify the `config.json` file.
 
@@ -25,8 +26,6 @@ You can also modify the `config.json` file.
     "PREFIX": "/"
 }
 ```
-
-If I have to tell you to **never** make your bot token public, you probably shouldn't be here.
 
 `$ python3 noni.py`
 
